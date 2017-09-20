@@ -1,0 +1,24 @@
+/**{ border: 1px dotted red;}*/
+body{
+    background-image: url('fara_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%;
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+.my-full-height{
+    margin: 0;
+    min-height: 100vh;
+}
+.my-dark-text{
+	color: white;
+}
+.my-thick-hr{
+	width: 100px;
+	border-width: 42px;
+	/*border-bottom: 0;*/
+	border-color: #FFA0AC;
+	margin: 0;
+}

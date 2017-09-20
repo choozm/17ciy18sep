@@ -1,0 +1,42 @@
+/* body {
+    background-image: url('profile/fara_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-position: 20% 50%;
+}
+ */
+
+.my-text {
+    color: white;
+}
+
+.my-thick-hr{
+	width: 100px;
+	border-width: 42px;
+	/*border-bottom: 0;*/
+	border-color: #FFA0AC;
+	margin: 0;
+}
+
+.my-photo {
+    min-height: 100vh;
+    background-image: url('profile/fara_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* background-attachment: fixed; */
+    background-position: 20% 50%;
+}
+
+
+.my-background {
+    min-height: 100vh;
+    background-image: url('Chrysanthemum.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* background-attachment: fixed;  */
+}
+
