@@ -30,7 +30,6 @@
     background-position: 20% 50%;
 }
 
-
 .my-background {
     min-height: 100vh;
     background-image: url('Chrysanthemum.jpg');
@@ -40,3 +39,6 @@
     /* background-attachment: fixed;  */
 }
 
+.my-invisible-box {
+    min-height: 10vh;
+}
