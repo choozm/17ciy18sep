@@ -9,3 +9,8 @@ greet("Zhi Min")
 greet("Kenneth")
 
 document.getElementById("output").innerHTML = greet("Sun");
+
+var eggTray = ["orangeEgg", "blueEgg", "purpleEgg", "redEgg"];
+eggTray.pop();eggTray.pop();eggTray.pop();
+console.log(eggTray.pop()); // orangeEgg
+console.log(eggTray.pop()); // undefined
