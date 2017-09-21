@@ -11,6 +11,17 @@ greet("Kenneth")
 document.getElementById("output").innerHTML = greet("Sun");
 
 var eggTray = ["orangeEgg", "blueEgg", "purpleEgg", "redEgg"];
-eggTray.pop();eggTray.pop();eggTray.pop();
+eggTray.pop();
+eggTray.pop();
+eggTray.pop();
 console.log(eggTray.pop()); // orangeEgg
 console.log(eggTray.pop()); // undefined
+
+var student = {
+    name: "ted",
+    grade: 49,
+    pass: false
+}
+
+console.log(student.name)
+console.log(student.grade)
